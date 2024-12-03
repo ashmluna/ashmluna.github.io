@@ -1,8 +1,7 @@
----
 layout: page
 title: "baltimore-encampment"
 permalink: https://ashmluna.github.io/baltimore-encampment
----
+
 
 <!doctype html>
 
