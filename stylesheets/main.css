@@ -104,7 +104,7 @@ img {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
-  background-color: #fb6a8b;
+  background-color: #fc7daa;
 }
 /* adds color to vertical timeline progression */
 
@@ -125,7 +125,7 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
-  border: 3px solid #fb6a8b;
+  border: 3px solid #fc7daa;
   background-color: #1d1d1b;
 
   text-align: center;
@@ -141,7 +141,7 @@ img {
 
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
-  background-color: #fb6a8b;
+  background-color: #fc7daa;
 }
 /* changes timeline date circles color when timeline scroll gets to the point */
 
@@ -154,7 +154,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #fb6a8b;
+  color: #fc7daa;
 }
 /*changes timeline titles color, possibly size and font, need to confirm */
 
