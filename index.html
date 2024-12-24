@@ -23,6 +23,9 @@
   </section>
   <section class="parallax__content">
 <div class="icon-container">
+ <audio id="hover-audio">
+    <source src="audio\pinkRabbits-theNational.mp3" type="audio/mpeg">
+ </audio>
   <ul>
     <li>
       <a href="#">
@@ -37,8 +40,23 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- partial -->
   <script  src="script\script.js"></script>
+
+$(document).ready(function() {
+    var audio = $("#hover-audio")[0];
+    
+    $(".icon-container").mouseenter(function() {
+        audio.play();
+        audio.loop = true;
+    });
+    
+    $(".icon-container").mouseleave(function() {
+        audio.pause();
+        audio.currentTime = 0; // Reset audio to start
+    });
+});
 
 </body>
 </html>
