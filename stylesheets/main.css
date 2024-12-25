@@ -157,6 +157,14 @@ img {
   border-radius: 50%;
 }
 
+.ag-timeline-card_point a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
   background-color: #fc7daa;
